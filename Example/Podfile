@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BrazeDesu_Example' do
+  pod 'BrazeDesu', :path => '../'
+
+  target 'BrazeDesu_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end
