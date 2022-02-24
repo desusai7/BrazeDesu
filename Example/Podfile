@@ -7,6 +7,7 @@ target 'BrazeDesu_Example' do
 
   target 'BrazeDesu_Tests' do
     inherit! :search_paths
+    pod 'BrazeDesu', :path => '../'
 
     pod 'Specta'
     pod 'Expecta'
