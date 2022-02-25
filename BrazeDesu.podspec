@@ -9,7 +9,7 @@ appboy_sdk_version = '4.4.2'
 
 Pod::Spec.new do |s|
   s.name             = 'BrazeDesu'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A Sample Cocoapod to do something'
 
 # This description is used to generate tags and improve search results.
@@ -32,8 +32,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'BrazeDesu/Classes/**/*'
-  s.dependency 'Appboy-iOS-SDK', '4.4.2'
-
+  
   if defined?($AppboySDKVersion)
     Pod::UI.puts "#{s.name}: Using user specified Appboy SDK version '#{$AppboySDKVersion}'"
     appboy_sdk_version = $AppboySDKVersion
