@@ -1,6 +1,0 @@
-framework module Pods_BrazeDesu_Tests {
-  umbrella header "Pods-BrazeDesu_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module BrazeDesu {
-  umbrella header "BrazeDesu-umbrella.h"
-
-  export *
-  module * { export * }
-}
