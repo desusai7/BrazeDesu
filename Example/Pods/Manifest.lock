@@ -25,28 +25,25 @@ PODS:
   - Specta (2.0.0)
 
 DEPENDENCIES:
-  - BrazeDesu (from `../`)
+  - BrazeDesu
   - Expecta
   - Specta
 
 SPEC REPOS:
   trunk:
     - Appboy-iOS-SDK
+    - BrazeDesu
     - Expecta
     - SDWebImage
     - Specta
 
-EXTERNAL SOURCES:
-  BrazeDesu:
-    :path: "../"
-
 SPEC CHECKSUMS:
   Appboy-iOS-SDK: 4a7dfe908639da81e5e85849355f6066b58b4cc6
-  BrazeDesu: b626498bf5ce95edbe17745204fa49dec0ba1f31
+  BrazeDesu: 62ccbb3a0eb03867dbf6210b060ea821d052293d
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
   Specta: b79d84043684b35ffdc2680df578dc318ec2efc2
 
-PODFILE CHECKSUM: 99e3a47d7451ae6aa487d7e373d9f17597214022
+PODFILE CHECKSUM: 30c4f2bb7f6e4f53ef941675edcb95642c073dcf
 
 COCOAPODS: 1.11.2
