@@ -16,7 +16,7 @@ PODS:
     - Appboy-iOS-SDK/Core
     - Appboy-iOS-SDK/InAppMessage
     - Appboy-iOS-SDK/NewsFeed
-  - BrazeDesu (0.1.0):
+  - BrazeDesu (0.1.2):
     - Appboy-iOS-SDK (= 4.4.2)
   - Expecta (1.0.6)
   - SDWebImage (5.12.3):
@@ -25,7 +25,7 @@ PODS:
   - Specta (2.0.0)
 
 DEPENDENCIES:
-  - BrazeDesu
+  - BrazeDesu (= 0.1.2)
   - Expecta
   - Specta
 
@@ -39,11 +39,11 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Appboy-iOS-SDK: 4a7dfe908639da81e5e85849355f6066b58b4cc6
-  BrazeDesu: 62ccbb3a0eb03867dbf6210b060ea821d052293d
+  BrazeDesu: 3268d67c93ec61a4d105edf2233caa823b772c89
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
   Specta: b79d84043684b35ffdc2680df578dc318ec2efc2
 
-PODFILE CHECKSUM: 30c4f2bb7f6e4f53ef941675edcb95642c073dcf
+PODFILE CHECKSUM: ce8cb7d66ce2849d4fb4c5f9278644a44e3f23b0
 
 COCOAPODS: 1.11.2

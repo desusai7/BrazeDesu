@@ -5,11 +5,11 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
-appboy_sdk_version = '4.4.2'
+# appboy_sdk_version = '4.4.2'
 
 Pod::Spec.new do |s|
   s.name             = 'BrazeDesu'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A Sample Cocoapod to do something'
 
 # This description is used to generate tags and improve search results.
@@ -33,14 +33,14 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BrazeDesu/Classes/**/*'
   
-  if defined?($AppboySDKVersion)
-    Pod::UI.puts "#{s.name}: Using user specified Appboy SDK version '#{$AppboySDKVersion}'"
-    appboy_sdk_version = $AppboySDKVersion
-  else
-    Pod::UI.puts "#{s.name}: Using default Appboy SDK version '#{appboy_sdk_version}'"
-  end
+  # if defined?($AppboySDKVersion)
+  #   Pod::UI.puts "#{s.name}: Using user specified Appboy SDK version '#{$AppboySDKVersion}'"
+  #   appboy_sdk_version = $AppboySDKVersion
+  # else
+  #   Pod::UI.puts "#{s.name}: Using default Appboy SDK version '#{appboy_sdk_version}'"
+  # end
 
-  s.dependency 'Appboy-iOS-SDK', appboy_sdk_version
+  # s.dependency 'Appboy-iOS-SDK', appboy_sdk_version
   
   # s.resource_bundles = {
   #   'BrazeDesu' => ['BrazeDesu/Assets/*.png']
