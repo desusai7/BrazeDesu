@@ -5,15 +5,11 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'BrazeDesu_Example' do
-  pod 'BrazeDesu', "0.1.3"
-#  pod 'BrazeDesu', :path => '../'
+  pod 'BrazeDesu', "0.1.2"
 
   target 'BrazeDesu_Tests' do
     inherit! :search_paths
-    pod 'BrazeDesu', "0.1.3"
-    # pod 'BrazeDesu'
-#    pod 'BrazeDesu', :path => '../'
-
+    pod 'BrazeDesu', "0.1.2"
     pod 'Specta'
     pod 'Expecta'
   end
